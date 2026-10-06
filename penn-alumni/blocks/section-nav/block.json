@@ -1,0 +1,16 @@
+{
+	"$schema": "https://schemas.wp.org/trunk/block.json",
+	"apiVersion": 3,
+	"name": "penn/section-nav",
+	"title": "On-this-page Nav",
+	"category": "penn",
+	"description": "Sticky \"jump to\" bar (paSectionNav). Lists every Section that has a Nav label.",
+	"icon": "ellipsis",
+	"textdomain": "penn-alumni",
+	"attributes": {},
+	"supports": {
+		"html": false
+	},
+	"editorScript": "penn-blocks-editor",
+	"render": "file:./render.php"
+}

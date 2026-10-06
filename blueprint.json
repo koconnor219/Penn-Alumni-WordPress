@@ -1,0 +1,30 @@
+{
+	"$schema": "https://playground.wordpress.net/blueprint-schema.json",
+	"meta": {
+		"title": "Penn Alumni — WordPress prototype",
+		"description": "Installs the Penn Alumni block theme from GitHub and imports the proof-slice pages and menus.",
+		"author": "Penn Alumni Relations"
+	},
+	"landingPage": "/",
+	"preferredVersions": { "php": "8.3", "wp": "latest" },
+	"features": { "networking": true },
+	"login": true,
+	"steps": [
+		{
+			"step": "installTheme",
+			"themeData": {
+				"resource": "git:directory",
+				"url": "https://github.com/koconnor219/Penn-Alumni-WordPress",
+				"ref": "main",
+				"refType": "branch",
+				"path": "penn-alumni"
+			},
+			"options": { "activate": true, "targetFolderName": "penn-alumni" }
+		},
+		{
+			"step": "runPHP",
+			"code": "<?php require_once '/wordpress/wp-load.php'; pa_import_starter_content();"
+		},
+		{ "step": "setSiteOptions", "options": { "blogname": "Penn Alumni", "blogdescription": "University of Pennsylvania Alumni Relations" } }
+	]
+}

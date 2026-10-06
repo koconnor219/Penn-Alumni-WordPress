@@ -1,0 +1,53 @@
+{
+	"$schema": "https://schemas.wp.org/trunk/block.json",
+	"apiVersion": 3,
+	"name": "penn/card",
+	"title": "Card",
+	"category": "penn",
+	"description": "One card (paCard). Pick a style, an icon or image, and where it links.",
+	"icon": "index-card",
+	"textdomain": "penn-alumni",
+	"attributes": {
+		"cardStyle": {
+			"type": "string",
+			"default": "icon"
+		},
+		"href": {
+			"type": "string",
+			"default": ""
+		},
+		"newTab": {
+			"type": "boolean",
+			"default": false
+		},
+		"icon": {
+			"type": "string",
+			"default": ""
+		},
+		"imageUrl": {
+			"type": "string",
+			"default": ""
+		},
+		"imageId": {
+			"type": "number"
+		},
+		"tone": {
+			"type": "string",
+			"default": "a"
+		},
+		"center": {
+			"type": "boolean",
+			"default": false
+		},
+		"badge": {
+			"type": "string",
+			"default": ""
+		}
+	},
+	"supports": {
+		"className": true,
+		"html": false
+	},
+	"editorScript": "penn-blocks-editor",
+	"render": "file:./render.php"
+}

@@ -1,0 +1,23 @@
+<!-- wp:template-part {"slug":"header","tagName":"div","className":"pa-part"} /-->
+<!-- wp:group {"tagName":"main","anchor":"main","className":"pa-main"} -->
+<main id="main" class="wp-block-group pa-main"><!-- wp:penn/hero {"variant":"compact"} -->
+<!-- wp:paragraph {"className":"pa-hero-eyebrow"} -->
+<p class="pa-hero-eyebrow">Search</p>
+<!-- /wp:paragraph -->
+<!-- wp:query-title {"type":"search","className":"pa-hero-title"} /-->
+<!-- /wp:penn/hero -->
+<!-- wp:penn/section -->
+<!-- wp:query {"queryId":2,"query":{"perPage":20,"postType":"page","inherit":true},"className":"pa-search-results"} -->
+<div class="wp-block-query pa-search-results"><!-- wp:post-template -->
+<!-- wp:post-title {"isLink":true,"level":3} /-->
+<!-- wp:post-excerpt {"excerptLength":30} /-->
+<!-- /wp:post-template -->
+<!-- wp:query-no-results -->
+<!-- wp:paragraph -->
+<p>No pages matched your search. Try different words, or browse from the menu above.</p>
+<!-- /wp:paragraph -->
+<!-- /wp:query-no-results --></div>
+<!-- /wp:query -->
+<!-- /wp:penn/section --></main>
+<!-- /wp:group -->
+<!-- wp:template-part {"slug":"footer","tagName":"div","className":"pa-part"} /-->

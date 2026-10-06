@@ -1,0 +1,76 @@
+{
+	"$schema": "https://schemas.wp.org/trunk/theme.json",
+	"version": 3,
+	"settings": {
+		"appearanceTools": false,
+		"useRootPaddingAwareAlignments": false,
+		"layout": {
+			"contentSize": "",
+			"wideSize": ""
+		},
+		"color": {
+			"custom": false,
+			"customGradient": false,
+			"customDuotone": false,
+			"defaultPalette": false,
+			"defaultGradients": false,
+			"defaultDuotone": false,
+			"duotone": [],
+			"gradients": [],
+			"palette": [
+				{ "slug": "penn-blue", "name": "Penn Blue", "color": "#011F5B" },
+				{ "slug": "penn-red", "name": "Penn Red", "color": "#990000" },
+				{ "slug": "light-blue", "name": "Light Blue", "color": "#82AFD3" },
+				{ "slug": "ink", "name": "Ink (body text)", "color": "#1A1A1A" },
+				{ "slug": "muted", "name": "Muted", "color": "#555555" },
+				{ "slug": "cream", "name": "Cream", "color": "#F7F6F3" },
+				{ "slug": "gray", "name": "Gray", "color": "#F2F2F2" },
+				{ "slug": "white", "name": "White", "color": "#FFFFFF" }
+			]
+		},
+		"typography": {
+			"customFontSize": false,
+			"dropCap": false,
+			"fontStyle": true,
+			"fontWeight": false,
+			"letterSpacing": false,
+			"lineHeight": false,
+			"textDecoration": false,
+			"textTransform": false,
+			"fontSizes": [],
+			"defaultFontSizes": false,
+			"fontFamilies": [
+				{ "slug": "serif", "name": "EB Garamond (headings)", "fontFamily": "'EB Garamond', Georgia, serif" },
+				{ "slug": "sans", "name": "Roboto (body)", "fontFamily": "Roboto, Arial, sans-serif" }
+			]
+		},
+		"spacing": {
+			"blockGap": null,
+			"margin": false,
+			"padding": false,
+			"customSpacingSize": false,
+			"defaultSpacingSizes": false,
+			"spacingSizes": []
+		},
+		"border": { "color": false, "radius": false, "style": false, "width": false },
+		"shadow": { "defaultPresets": false, "presets": [] },
+		"blocks": {
+			"core/button": { "border": { "radius": false } }
+		}
+	},
+	"styles": {
+		"elements": {
+			"link": { "typography": { "textDecoration": "none" } },
+			"button": {
+				"border": { "radius": "0" },
+				"spacing": { "padding": { "top": "0", "bottom": "0", "left": "0", "right": "0" } },
+				"typography": { "fontSize": "inherit" },
+				"color": { "background": "transparent", "text": "inherit" }
+			}
+		}
+	},
+	"templateParts": [
+		{ "name": "header", "title": "Header (paHeader)", "area": "header" },
+		{ "name": "footer", "title": "Footer (paFooter)", "area": "footer" }
+	]
+}

@@ -1,0 +1,249 @@
+<?php
+/**
+ * Title: Section landing page
+ * Slug: penn/page-landing
+ * Categories: penn-pages
+ * Block Types: core/post-content
+ * Post Types: page
+ * Description: Hero, intro, three feature cards, list of groups, events, call to action.
+ */
+?>
+<!-- wp:penn/hero {"variant":"page","mediaUrl":"<?php echo esc_url( get_template_directory_uri() ); ?>/assets/images/Homecoming%20Group%20Photo.jpg"} -->
+<!-- wp:penn/breadcrumbs /-->
+<!-- wp:paragraph {"className":"pa-hero-eyebrow"} -->
+<p class="pa-hero-eyebrow">Communities</p>
+<!-- /wp:paragraph -->
+<!-- wp:heading {"level":1,"className":"pa-hero-title"} -->
+<h1 class="wp-block-heading pa-hero-title">Find Your <em>People</em></h1>
+<!-- /wp:heading -->
+<!-- wp:paragraph {"className":"pa-hero-sub"} -->
+<p class="pa-hero-sub">Your class, your city, your shared identity and interests. However you define home, there's a Penn community waiting for you.</p>
+<!-- /wp:paragraph -->
+<!-- wp:buttons -->
+<div class="wp-block-buttons"><!-- wp:button {"className":"is-style-pa-primary"} -->
+<div class="wp-block-button is-style-pa-primary"><a class="wp-block-button__link wp-element-button" href="/communities/classes/">Find Your Class →</a></div>
+<!-- /wp:button -->
+<!-- wp:button {"className":"is-style-pa-ghost"} -->
+<div class="wp-block-button is-style-pa-ghost"><a class="wp-block-button__link wp-element-button" href="/communities/regional-clubs/">Find a Regional Club</a></div>
+<!-- /wp:button --></div>
+<!-- /wp:buttons -->
+<!-- /wp:penn/hero -->
+
+<!-- wp:penn/section -->
+<!-- wp:group {"className":"pa-content pa-content\u002d\u002dnarrow"} -->
+<div class="wp-block-group pa-content pa-content--narrow"><!-- wp:group {"className":"pa-head"} -->
+<div class="wp-block-group pa-head"><!-- wp:paragraph {"className":"pa-head-eyebrow"} -->
+<p class="pa-head-eyebrow">Stay Connected</p>
+<!-- /wp:paragraph -->
+<!-- wp:heading {"className":"pa-head-title"} -->
+<h2 class="wp-block-heading pa-head-title">Once a Quaker, <em>always a Quaker</em></h2>
+<!-- /wp:heading --></div>
+<!-- /wp:group -->
+<!-- wp:group {"className":"pa-rich"} -->
+<div class="wp-block-group pa-rich"><!-- wp:paragraph -->
+<p>More than 300,000 Penn alumni live and work in every corner of the world, and they stay connected through the communities that matter most to them. Reconnect with the classmates you walked Locust Walk with, join 124 regional clubs from Philadelphia to Tokyo, or find kinship in an affinity group built around shared identity, background and interests.</p>
+<!-- /wp:paragraph -->
+<!-- wp:paragraph -->
+<p>Every community hosts events, welcomes new members and carries Penn traditions forward. All you have to do is show up.</p>
+<!-- /wp:paragraph --></div>
+<!-- /wp:group --></div>
+<!-- /wp:group -->
+<!-- /wp:penn/section -->
+
+<!-- wp:penn/section {"bg":"cream"} -->
+<!-- wp:group {"className":"pa-head"} -->
+<div class="wp-block-group pa-head"><!-- wp:paragraph {"className":"pa-head-eyebrow"} -->
+<p class="pa-head-eyebrow">Three Ways In</p>
+<!-- /wp:paragraph -->
+<!-- wp:heading {"className":"pa-head-title"} -->
+<h2 class="wp-block-heading pa-head-title">Where do you <em>belong?</em></h2>
+<!-- /wp:heading -->
+<!-- wp:paragraph {"className":"pa-head-intro"} -->
+<p class="pa-head-intro">Start with your class, your city or a group that shares your story.</p>
+<!-- /wp:paragraph --></div>
+<!-- /wp:group -->
+<!-- wp:penn/grid {"columns":3} -->
+<!-- wp:penn/card {"cardStyle":"image","href":"/communities/classes/","tone":"a"} -->
+<!-- wp:paragraph {"className":"pa-c-eyebrow"} -->
+<p class="pa-c-eyebrow">By Class Year</p>
+<!-- /wp:paragraph -->
+<!-- wp:heading {"level":3,"className":"pa-c-title"} -->
+<h3 class="wp-block-heading pa-c-title">Classes</h3>
+<!-- /wp:heading -->
+<!-- wp:paragraph {"className":"pa-c-text"} -->
+<p class="pa-c-text">Reconnect with classmates, find your class officers and plan your next reunion.</p>
+<!-- /wp:paragraph -->
+<!-- wp:paragraph {"className":"pa-c-link"} -->
+<p class="pa-c-link">Class Directory →</p>
+<!-- /wp:paragraph -->
+<!-- /wp:penn/card -->
+<!-- wp:penn/card {"cardStyle":"image","href":"#affinity","tone":"b"} -->
+<!-- wp:paragraph {"className":"pa-c-eyebrow"} -->
+<p class="pa-c-eyebrow">By Identity & Interest</p>
+<!-- /wp:paragraph -->
+<!-- wp:heading {"level":3,"className":"pa-c-title"} -->
+<h3 class="wp-block-heading pa-c-title">Communities & Groups</h3>
+<!-- /wp:heading -->
+<!-- wp:paragraph {"className":"pa-c-text"} -->
+<p class="pa-c-text">Penn Spectrum Programs, Penn First Plus, Young Alumni, shared interest groups and more.</p>
+<!-- /wp:paragraph -->
+<!-- wp:paragraph {"className":"pa-c-link"} -->
+<p class="pa-c-link">See All Groups →</p>
+<!-- /wp:paragraph -->
+<!-- /wp:penn/card -->
+<!-- wp:penn/card {"cardStyle":"image","href":"/communities/regional-clubs/","tone":"d"} -->
+<!-- wp:paragraph {"className":"pa-c-eyebrow"} -->
+<p class="pa-c-eyebrow">By Location</p>
+<!-- /wp:paragraph -->
+<!-- wp:heading {"level":3,"className":"pa-c-title"} -->
+<h3 class="wp-block-heading pa-c-title">Regional Clubs</h3>
+<!-- /wp:heading -->
+<!-- wp:paragraph {"className":"pa-c-text"} -->
+<p class="pa-c-text">124 clubs worldwide host happy hours, lectures, service days and game-watch parties.</p>
+<!-- /wp:paragraph -->
+<!-- wp:paragraph {"className":"pa-c-link"} -->
+<p class="pa-c-link">Find Your Club →</p>
+<!-- /wp:paragraph -->
+<!-- /wp:penn/card -->
+<!-- /wp:penn/grid -->
+<!-- /wp:penn/section -->
+
+<!-- wp:penn/section {"anchor":"affinity"} -->
+<!-- wp:group {"className":"pa-head"} -->
+<div class="wp-block-group pa-head"><!-- wp:paragraph {"className":"pa-head-eyebrow"} -->
+<p class="pa-head-eyebrow">Communities & Groups</p>
+<!-- /wp:paragraph -->
+<!-- wp:heading {"className":"pa-head-title"} -->
+<h2 class="wp-block-heading pa-head-title">Every Penn <em>community</em></h2>
+<!-- /wp:heading -->
+<!-- wp:paragraph {"className":"pa-head-intro"} -->
+<p class="pa-head-intro">Penn alumni are connected through a vibrant network of organizations that celebrate shared identities, interests, and professional backgrounds.</p>
+<!-- /wp:paragraph --></div>
+<!-- /wp:group -->
+<!-- wp:paragraph {"className":"pa-proto-note"} -->
+<p class="pa-proto-note">Group list follows the Sept 2026 sitemap. Descriptions to be confirmed.</p>
+<!-- /wp:paragraph -->
+<!-- wp:penn/grid {"columns":2} -->
+<!-- wp:penn/card {"cardStyle":"row","href":"/communities/association-of-alumnae/","icon":"award"} -->
+<!-- wp:heading {"level":3,"className":"pa-c-title"} -->
+<h3 class="wp-block-heading pa-c-title">Association of Alumnae</h3>
+<!-- /wp:heading -->
+<!-- wp:paragraph {"className":"pa-c-text"} -->
+<p class="pa-c-text">Supporting Penn women since 1912</p>
+<!-- /wp:paragraph -->
+<!-- /wp:penn/card -->
+<!-- wp:penn/card {"cardStyle":"row","href":"/communities/classes/","icon":"users-round"} -->
+<!-- wp:heading {"level":3,"className":"pa-c-title"} -->
+<h3 class="wp-block-heading pa-c-title">Classes & Reunions</h3>
+<!-- /wp:heading -->
+<!-- wp:paragraph {"className":"pa-c-text"} -->
+<p class="pa-c-text">Find your class and your reunion</p>
+<!-- /wp:paragraph -->
+<!-- /wp:penn/card -->
+<!-- wp:penn/card {"cardStyle":"row","href":"/communities/penn-first-plus/","icon":"graduation-cap"} -->
+<!-- wp:heading {"level":3,"className":"pa-c-title"} -->
+<h3 class="wp-block-heading pa-c-title">Penn First Plus Alumni</h3>
+<!-- /wp:heading -->
+<!-- wp:paragraph {"className":"pa-c-text"} -->
+<p class="pa-c-text">First-generation and/or lower-income alumni</p>
+<!-- /wp:paragraph -->
+<!-- /wp:penn/card -->
+<!-- wp:penn/card {"cardStyle":"row","href":"/communities/penn-spectrum/","icon":"heart"} -->
+<!-- wp:heading {"level":3,"className":"pa-c-title"} -->
+<h3 class="wp-block-heading pa-c-title">Penn Spectrum Programs</h3>
+<!-- /wp:heading -->
+<!-- wp:paragraph {"className":"pa-c-text"} -->
+<p class="pa-c-text">Leadership groups and cultural communities: JBS, Penn LeadershipQ, BAS, UPAAN, ANA, ALA, PennGALA</p>
+<!-- /wp:paragraph -->
+<!-- /wp:penn/card -->
+<!-- wp:penn/card {"cardStyle":"row","href":"/communities/penn-traditions/","icon":"library"} -->
+<!-- wp:heading {"level":3,"className":"pa-c-title"} -->
+<h3 class="wp-block-heading pa-c-title">Penn Traditions</h3>
+<!-- /wp:heading -->
+<!-- wp:paragraph {"className":"pa-c-text"} -->
+<p class="pa-c-text">Keeping Penn's customs alive from Hey Day to Commencement</p>
+<!-- /wp:paragraph -->
+<!-- /wp:penn/card -->
+<!-- wp:penn/card {"cardStyle":"row","href":"/communities/regional-clubs/","icon":"globe"} -->
+<!-- wp:heading {"level":3,"className":"pa-c-title"} -->
+<h3 class="wp-block-heading pa-c-title">Regional Clubs</h3>
+<!-- /wp:heading -->
+<!-- wp:paragraph {"className":"pa-c-text"} -->
+<p class="pa-c-text">124 clubs around the world</p>
+<!-- /wp:paragraph -->
+<!-- /wp:penn/card -->
+<!-- wp:penn/card {"cardStyle":"row","href":"/communities/shared-interest-groups/","icon":"briefcase"} -->
+<!-- wp:heading {"level":3,"className":"pa-c-title"} -->
+<h3 class="wp-block-heading pa-c-title">Shared Interest Groups</h3>
+<!-- /wp:heading -->
+<!-- wp:paragraph {"className":"pa-c-text"} -->
+<p class="pa-c-text">PJAN, PennPAC and more</p>
+<!-- /wp:paragraph -->
+<!-- /wp:penn/card -->
+<!-- wp:penn/card {"cardStyle":"row","href":"/communities/young-alumni/","icon":"users"} -->
+<!-- wp:heading {"level":3,"className":"pa-c-title"} -->
+<h3 class="wp-block-heading pa-c-title">Young Alumni</h3>
+<!-- /wp:heading -->
+<!-- wp:paragraph {"className":"pa-c-text"} -->
+<p class="pa-c-text">For graduates of the last decade</p>
+<!-- /wp:paragraph -->
+<!-- /wp:penn/card -->
+<!-- wp:penn/card {"cardStyle":"row","href":"/communities/graduate-school-alumni/","icon":"book-open"} -->
+<!-- wp:heading {"level":3,"className":"pa-c-title"} -->
+<h3 class="wp-block-heading pa-c-title">Graduate School Alumni</h3>
+<!-- /wp:heading -->
+<!-- wp:paragraph {"className":"pa-c-text"} -->
+<p class="pa-c-text">Your school's alumni community</p>
+<!-- /wp:paragraph -->
+<!-- /wp:penn/card -->
+<!-- wp:penn/card {"cardStyle":"row","href":"/communities/trustees-council-of-penn-women/","icon":"sparkles"} -->
+<!-- wp:heading {"level":3,"className":"pa-c-title"} -->
+<h3 class="wp-block-heading pa-c-title">Trustees' Council of Penn Women</h3>
+<!-- /wp:heading -->
+<!-- wp:paragraph {"className":"pa-c-text"} -->
+<p class="pa-c-text">Advancing women's leadership and philanthropy at Penn</p>
+<!-- /wp:paragraph -->
+<!-- /wp:penn/card -->
+<!-- /wp:penn/grid -->
+<!-- /wp:penn/section -->
+
+<!-- wp:penn/section {"bg":"cream"} -->
+<!-- wp:group {"className":"pa-head pa-head\u002d\u002dsplit"} -->
+<div class="wp-block-group pa-head pa-head--split"><!-- wp:group -->
+<div class="wp-block-group"><!-- wp:paragraph {"className":"pa-head-eyebrow"} -->
+<p class="pa-head-eyebrow">Upcoming</p>
+<!-- /wp:paragraph -->
+<!-- wp:heading {"className":"pa-head-title"} -->
+<h2 class="wp-block-heading pa-head-title">Community <em>events</em></h2>
+<!-- /wp:heading --></div>
+<!-- /wp:group -->
+<!-- wp:paragraph -->
+<p><a class="pa-head-link" href="/events/">Full Calendar →</a></p>
+<!-- /wp:paragraph --></div>
+<!-- /wp:group -->
+<!-- wp:penn/event-feed {"layout":"cards","count":3,"filter":"Communities","columns":3} /-->
+<!-- /wp:penn/section -->
+
+<!-- wp:penn/section {"bg":"red"} -->
+<!-- wp:group {"className":"pa-cta"} -->
+<div class="wp-block-group pa-cta"><!-- wp:group {"className":"pa-head"} -->
+<div class="wp-block-group pa-head"><!-- wp:paragraph {"className":"pa-head-eyebrow"} -->
+<p class="pa-head-eyebrow">Get Involved</p>
+<!-- /wp:paragraph -->
+<!-- wp:heading {"className":"pa-head-title"} -->
+<h2 class="wp-block-heading pa-head-title">Bring Penn to <em>your community</em></h2>
+<!-- /wp:heading -->
+<!-- wp:paragraph {"className":"pa-head-intro"} -->
+<p class="pa-head-intro">Start a club, lead your class or help grow an affinity group. We'll help you every step of the way.</p>
+<!-- /wp:paragraph --></div>
+<!-- /wp:group -->
+<!-- wp:buttons -->
+<div class="wp-block-buttons"><!-- wp:button {"className":"is-style-pa-primary"} -->
+<div class="wp-block-button is-style-pa-primary"><a class="wp-block-button__link wp-element-button" href="/get-involved/">Get Involved →</a></div>
+<!-- /wp:button -->
+<!-- wp:button {"className":"is-style-pa-ghost"} -->
+<div class="wp-block-button is-style-pa-ghost"><a class="wp-block-button__link wp-element-button" href="/about/contact/">Contact Us</a></div>
+<!-- /wp:button --></div>
+<!-- /wp:buttons --></div>
+<!-- /wp:group -->
+<!-- /wp:penn/section -->

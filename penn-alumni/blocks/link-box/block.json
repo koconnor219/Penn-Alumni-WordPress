@@ -1,0 +1,26 @@
+{
+	"$schema": "https://schemas.wp.org/trunk/block.json",
+	"apiVersion": 3,
+	"name": "penn/link-box",
+	"title": "Link Box",
+	"category": "penn",
+	"description": "A clickable box (tiles, stats and other small linked panels).",
+	"icon": "admin-links",
+	"textdomain": "penn-alumni",
+	"attributes": {
+		"href": {
+			"type": "string",
+			"default": ""
+		},
+		"newTab": {
+			"type": "boolean",
+			"default": false
+		}
+	},
+	"supports": {
+		"className": true,
+		"html": false
+	},
+	"editorScript": "penn-blocks-editor",
+	"render": "file:./render.php"
+}

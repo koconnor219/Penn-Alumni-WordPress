@@ -1,0 +1,17 @@
+/* Editor-only: make the canvas read like the live page and keep blocks easy to select. */
+.editor-styles-wrapper { font-family: var(--font-sans); color: var(--ink); }
+.editor-styles-wrapper .pa-secnav { position: static; }
+.editor-styles-wrapper .pa-hero--home { height: auto; min-height: 520px; }
+.editor-styles-wrapper .pa-c, .editor-styles-wrapper .pa-tile { cursor: text; }
+.editor-styles-wrapper .pa-block:empty, .editor-styles-wrapper .pa-c-body:empty { min-height: 60px; }
+
+/* Buttons: the front end swaps in .pa-btn markup; mirror the look here. */
+.editor-styles-wrapper .wp-block-buttons { display: flex; gap: var(--space-3); flex-wrap: wrap; }
+.editor-styles-wrapper .wp-block-button .wp-block-button__link { display: inline-block; font-family: var(--font-sans); font-size: 0.875rem; font-weight: 700; letter-spacing: 0.08em; text-transform: uppercase; padding: 12px 28px; border-radius: var(--radius-sm); border: 2px solid transparent; background: var(--penn-red); color: var(--white); }
+.editor-styles-wrapper .is-style-pa-secondary .wp-block-button__link { background: var(--penn-blue); }
+.editor-styles-wrapper .is-style-pa-ghost .wp-block-button__link { background: transparent; color: var(--penn-blue); border-color: var(--penn-blue); }
+.editor-styles-wrapper .pa-bg-blue .is-style-pa-ghost .wp-block-button__link, .editor-styles-wrapper .pa-bg-red .is-style-pa-ghost .wp-block-button__link, .editor-styles-wrapper .pa-hero .is-style-pa-ghost .wp-block-button__link, .editor-styles-wrapper .is-style-pa-ghost-light .wp-block-button__link { background: transparent; color: var(--white); border-color: var(--white); }
+.editor-styles-wrapper .is-style-pa-white .wp-block-button__link { background: var(--white); color: var(--penn-blue); }
+.editor-styles-wrapper .is-style-pa-text .wp-block-button__link { background: none; color: var(--penn-red); padding: 0; font-size: 0.8125rem; letter-spacing: 0.1em; }
+.editor-styles-wrapper .is-style-pa-eyebrow { font-size: 0.72rem; font-weight: 700; letter-spacing: 0.22em; text-transform: uppercase; color: var(--penn-red); }
+.editor-styles-wrapper .is-style-pa-note { font-size: 0.72rem; font-style: italic; color: var(--muted); padding: 8px 12px; background: rgba(130,175,211,0.12); border-left: 2px solid var(--light-blue); }

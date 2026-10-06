@@ -1,0 +1,125 @@
+# Club Name | City | State | Area (if not a city) | Country | Region | Club Community   ← edit this file once a year (or export from Salesforce/MemberVerse)
+Penn Club of Alabama||Alabama||United States|Southeast|
+Penn Club of Phoenix|Phoenix|Arizona||United States|West Coast|
+Penn Club of Los Angeles|Los Angeles|California||United States|West Coast|MemberVerse
+Penn Club of Orange County||California|Orange County|United States|West Coast|
+Penn Club of San Francisco|San Francisco|California||United States|West Coast|MemberVerse
+Penn Club of San Diego|San Diego|California||United States|West Coast|
+Penn Club of Silicon Valley||California|Silicon Valley|United States|West Coast|MemberVerse
+Penn Club of Colorado||Colorado||United States|West Coast|
+Penn Club of Fairfield County||Connecticut|Fairfield County|United States|Northeast|MemberVerse
+Penn Club of Hartford|Hartford|Connecticut||United States|Northeast|
+Penn Club of New Haven|New Haven|Connecticut||United States|Northeast|
+Penn Club of Delaware||Delaware||United States|Northeast|
+Penn Gold Coast Alumni Club||Florida|Boca Raton/Ft Lauderdale & Palm Beach|United States|Southeast|MemberVerse
+Penn Club of Central Florida||Florida|Central Florida|United States|Southeast|
+Penn Club of NE Florida/Jacksonville||Florida|NE Florida/Jacksonville|United States|Southeast|
+Penn Club of Miami|Miami|Florida||United States|Southeast|MemberVerse
+Penn Club of Sarasota & Manatee Counties||Florida|Sarasota & Manatee Counties|United States|Southeast|
+Penn Club of Southwest Florida||Florida|Southwest Florida|United States|Southeast|MemberVerse
+Penn Club of Tampa|Tampa|Florida||United States|Southeast|
+Penn Club of Atlanta|Atlanta|Georgia||United States|Southeast|MemberVerse
+Penn Club of Honolulu|Honolulu|Hawaii||United States|West Coast|
+Penn Club of Chicago|Chicago|Illinois||United States|Midwest|MemberVerse
+Penn Club of Indiana||Indiana||United States|Midwest|
+Penn Club of Iowa||Iowa||United States|Midwest|
+Penn Club of Louisville/Lexington||Kentucky|Louisville/Lexington|United States|Southeast|
+Penn Club of New Orleans|New Orleans|Louisiana||United States|Southeast|
+Penn Club of Baltimore|Baltimore|Maryland||United States|Northeast|
+Penn Club of Boston|Boston|Massachusetts||United States|Northeast|MemberVerse
+Penn Club of Worcester|Worcester|Massachusetts||United States|Northeast|
+Penn Club of Michigan||Michigan||United States|Midwest|
+Penn Club of Minneapolis|Minneapolis|Minnesota||United States|Midwest|
+Penn Club of Mississippi||Mississippi||United States|Southeast|
+Penn Club of Kansas City|Kansas City|Missouri||United States|Midwest|
+Penn Club of St. Louis|St. Louis|Missouri||United States|Midwest|
+Penn Club of Montana||Montana||United States|West Coast|
+Penn Club of Las Vegas|Las Vegas|Nevada||United States|West Coast|
+Penn Club of Central New Jersey||New Jersey|Central New Jersey|United States|Northeast|
+Penn Club of Metro New Jersey||New Jersey|Metro New Jersey|United States|Northeast|MemberVerse
+Penn Club of New Mexico||New Mexico||United States|West Coast|
+Penn Club of Central New York||New York|Central New York|United States|Northeast|
+Penn Club of Long Island||New York|Long Island|United States|Northeast|
+PennNYC|New York City|New York||United States|Northeast|MemberVerse
+Penn Club of Rochester|Rochester|New York||United States|Northeast|
+Penn Club of Westchester/Rockland Counties||New York|Westchester/Rockland Counties|United States|Northeast|MemberVerse
+Penn Club of Charlotte|Charlotte|North Carolina||United States|Southeast|MemberVerse
+Penn Club of The Triangle||North Carolina|The Triangle|United States|Southeast|MemberVerse
+Penn Club of Cleveland|Cleveland|Ohio||United States|Midwest|
+Penn Club of Southwest Ohio||Ohio|Southwest Ohio|United States|Midwest|
+Penn Club of Tulsa|Tulsa|Oklahoma||United States|West Coast|
+Penn Club of Portland|Portland|Oregon||United States|West Coast|
+Penn Club of Bucks County||Pennsylvania|Bucks County|United States|Northeast|
+Penn Club of Central Pennsylvania||Pennsylvania|Central Pennsylvania|United States|Northeast|
+Penn Club of Lehigh Valley||Pennsylvania|Lehigh Valley|United States|Northeast|
+Penn Club of Northeastern Pennsylvania||Pennsylvania|Northeastern Pennsylvania|United States|Northeast|
+Penn Club of Philadelphia|Philadelphia|Pennsylvania||United States|Northeast|MemberVerse
+Penn Club of Western Pennsylvania||Pennsylvania|Western Pennsylvania|United States|Northeast|MemberVerse
+Penn Club of Puerto Rico||Puerto Rico||United States|Southeast|
+Penn Club of Rhode Island||Rhode Island||United States|Northeast|
+Penn Club of South Carolina||South Carolina||United States|Southeast|
+Penn Club of Memphis|Memphis|Tennessee||United States|Southeast|
+Penn Club of Nashville|Nashville|Tennessee||United States|Southeast|
+Penn Club of Austin|Austin|Texas||United States|West Coast|
+Penn Club of Dallas/Ft.Worth||Texas|Dallas/Ft.Worth|United States|West Coast|MemberVerse
+Penn Club of Houston|Houston|Texas||United States|West Coast|MemberVerse
+Penn Club of San Antonio|San Antonio|Texas||United States|West Coast|
+Penn Club of Utah||Utah||United States|West Coast|
+Penn Club of Hampton Roads||Virginia|Hampton Roads|United States|Southeast|
+Penn Club of Central Virginia||Virginia|Central Virginia|United States|Southeast|
+Penn Club of Seattle|Seattle|Washington||United States|West Coast|MemberVerse
+Penn Club of Washington D.C.||Washington D.C.||United States|Northeast|MemberVerse
+Penn Club of Wisconsin||Wisconsin||United States|Midwest|
+Penn Club of Afghanistan||||Afghanistan|International|
+Penn Club of Australia||||Australia|International|
+Penn Club of Bermuda||||Bermuda|International|
+Penn Club of Brazil||||Brazil|International|
+Penn Club of Bulgaria||||Bulgaria|International|
+Penn Club of Toronto|Toronto|||Canada|International|
+Penn Club of Vancouver|Vancouver|||Canada|International|
+Penn Club of Chile||||Chile|International|
+Penn Club of Beijing|Beijing|||China|International|
+Penn Club of Shanghai|Shanghai|||China|International|
+Penn Club of Shenzhen|Shenzhen|||China|International|
+Penn Club of Guangzhou|Guangzhou|||China|International|
+Penn Club of Colombia||||Colombia|International|
+Penn Club of Denmark||||Denmark|International|
+Penn Club of Dominican Republic||||Dominican Republic|International|
+Penn Club of Ecuador||||Ecuador|International|
+Penn Club of Egypt||||Egypt|International|
+Penn Club of France||||France|International|MemberVerse
+Penn Club of Germany||||Germany|International|
+Penn Club of Greece||||Greece|International|
+Penn Club of Guam||||Guam|International|
+Penn Club of Guatemala||||Guatemala|International|
+Penn Club of Hong Kong||||Hong Kong|International|MemberVerse
+Penn Club of Hungary||||Hungary|International|
+Penn Club of Bangalore|Bangalore|||India|International|
+Penn Club of Delhi|Delhi|||India|International|
+Penn Club of Kolkata|Kolkata|||India|International|
+Penn Club of Mumbai|Mumbai|||India|International|MemberVerse
+Penn Club of Indonesia||||Indonesia|International|
+Penn Club of Ireland||||Ireland|International|
+Penn Club of Milan|Milan|||Italy|International|
+Penn Club of Jamaica||||Jamaica|International|
+Penn Club of Japan||||Japan|International|MemberVerse
+Penn Club of Kazakhstan||||Kazakhstan|International|
+Penn Club of Kenya||||Kenya|International|
+Penn Club of Korea||||Korea|International|
+Penn Club of Kuwait||||Kuwait|International|
+Penn Club of Malaysia||||Malaysia|International|
+Penn Club of Mexico||||Mexico|International|
+Penn Club of Netherlands||||Netherlands|International|
+Penn Club of Nicaragua||||Nicaragua|International|
+Penn Club of Panama||||Panama|International|
+Penn Club of Philippines||||Philippines|International|
+Penn Club of Romania||||Romania|International|
+Penn Club of Singapore||||Singapore|International|
+Penn Club of South Africa||||South Africa|International|
+Penn Club of Switzerland||||Switzerland|International|
+Penn Club of Taiwan||||Taiwan|International|
+Penn Club of Thailand||||Thailand|International|
+Penn Club of Turkey||||Turkey|International|
+Penn Club of UAE||||UAE|International|
+Penn Club of United Kingdom||||United Kingdom|International|MemberVerse
+Penn Club of Vietnam||||Vietnam|International|

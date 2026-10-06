@@ -1,0 +1,35 @@
+{
+	"$schema": "https://schemas.wp.org/trunk/block.json",
+	"apiVersion": 3,
+	"name": "penn/section",
+	"title": "Section",
+	"category": "penn",
+	"description": "A full-width page section (paContent / paCardGrid / paCtaBand shell). Choose a background; add a heading, text, cards or buttons inside.",
+	"icon": "align-wide",
+	"textdomain": "penn-alumni",
+	"attributes": {
+		"bg": {
+			"type": "string",
+			"default": "white"
+		},
+		"compact": {
+			"type": "boolean",
+			"default": false
+		},
+		"navLabel": {
+			"type": "string",
+			"default": ""
+		},
+		"inner": {
+			"type": "boolean",
+			"default": true
+		}
+	},
+	"supports": {
+		"anchor": true,
+		"className": true,
+		"html": false
+	},
+	"editorScript": "penn-blocks-editor",
+	"render": "file:./render.php"
+}

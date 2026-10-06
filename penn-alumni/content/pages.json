@@ -1,0 +1,101 @@
+[
+ {
+  "source": "index.html",
+  "title": "Home",
+  "slug": "home",
+  "url": "/",
+  "parent": "",
+  "file": "home.html",
+  "description": "Penn Alumni connects nearly 300,000 University of Pennsylvania alumni worldwide through events, reunions, lifelong learning, travel, and volunteer opportunities."
+ },
+ {
+  "source": "02-events-calendar.html",
+  "title": "Events Calendar",
+  "slug": "events",
+  "url": "/events/",
+  "parent": "",
+  "file": "events.html",
+  "description": "Find Penn Alumni events near you — regional happy hours, faculty lectures, career nights, reunions, Homecoming, and the Alumni Award of Merit Gala. Filter by location, type and category."
+ },
+ {
+  "source": "03-landing-communities.html",
+  "title": "Communities",
+  "slug": "communities",
+  "url": "/communities/",
+  "parent": "",
+  "file": "communities.html",
+  "description": "Find your Penn community: classes, affinity groups and 124 regional clubs around the world."
+ },
+ {
+  "source": "03-landing-learn-network.html",
+  "title": "Learn & Network",
+  "slug": "learn",
+  "url": "/learn/",
+  "parent": "",
+  "file": "learn.html",
+  "description": "Lifelong learning for Penn alumni: Alumni Education, Penn Alumni Travel and career resources."
+ },
+ {
+  "source": "02-interior-about.html",
+  "title": "About",
+  "slug": "about",
+  "url": "/about/",
+  "parent": "",
+  "file": "about.html",
+  "description": "Penn Alumni Relations connects more than 350,000 alumni through programs, publications, volunteers, benefits and awards."
+ },
+ {
+  "source": "events-alumni-weekend.html",
+  "title": "Alumni Weekend",
+  "slug": "alumni-weekend",
+  "url": "/events/alumni-weekend/",
+  "parent": "/events/",
+  "file": "alumni-weekend.html",
+  "description": "Alumni Weekend 2027 at Penn: schedule highlights, reunion classes ending in 2 and 7, accommodations, school contacts and FAQs."
+ },
+ {
+  "source": "02-interior-homecoming.html",
+  "title": "Homecoming Weekend",
+  "slug": "homecoming",
+  "url": "/events/homecoming/",
+  "parent": "/events/",
+  "file": "homecoming.html",
+  "description": "Homecoming Weekend 2026, November 6–8 on Penn's campus. Three days of arts, culture, and tradition — the schedule, accommodations, the Alumni Award of Merit Gala, and FAQs."
+ },
+ {
+  "source": "directory-clubs.html",
+  "title": "Regional Clubs",
+  "slug": "regional-clubs",
+  "url": "/communities/regional-clubs/",
+  "parent": "/communities/",
+  "file": "regional-clubs.html",
+  "description": "Find a Penn Alumni regional club near you. Searchable directory of 124 clubs across the United States and around the world."
+ },
+ {
+  "source": "02-interior-alumni-education.html",
+  "title": "Alumni Education",
+  "slug": "alumni-education",
+  "url": "/learn/alumni-education/",
+  "parent": "/learn/",
+  "file": "alumni-education.html",
+  "description": "Continue your Penn education through faculty lectures, the Global Discovery Series, Lifelong Learning Seminars, and Alumni Online Courses — built exclusively for Penn alumni."
+ },
+ {
+  "source": "05-contact.html",
+  "title": "Contact Us",
+  "slug": "contact",
+  "url": "/about/contact/",
+  "parent": "/about/",
+  "file": "contact.html",
+  "description": "Contact Penn Alumni Relations at Sweeten Alumni House: send a message, find the right team, and get quick answers."
+ },
+ {
+  "source": "reunion-25th.html",
+  "title": "25th Reunion · Class of 2002",
+  "slug": "25th-reunion",
+  "url": "/events/alumni-weekend/25th-reunion/",
+  "parent": "/events/alumni-weekend/",
+  "file": "25th-reunion.html",
+  "description": "Class of 2002 25th Reunion at Alumni Weekend 2027: class events, reunion team and class giving."
+ }
+]

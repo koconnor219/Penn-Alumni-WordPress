@@ -1,0 +1,53 @@
+/* ═══════════════════════════════════════════════════════════════════════
+   WP ADAPTER — the only CSS added for WordPress.
+   pennDesignTokens.css (unchanged from the HTML prototype) does all the styling;
+   this file just neutralizes WordPress wrappers so the same rules apply.
+═══════════════════════════════════════════════════════════════════════ */
+
+/* Template-part and block wrappers must not create boxes (keeps the header sticky, sections full-bleed). */
+.wp-site-blocks, .pa-part, .pa-header-wrap { display: contents; }
+.wp-site-blocks > * { margin-block: 0; }
+
+/* Core block defaults we don't want */
+.wp-block-list { padding-left: 1.2em; }
+.pa-rich .wp-block-list { margin-top: 16px; }
+.pa-rich > :first-child { margin-top: 0; }
+.wp-block-image { margin: 0; }
+:where(.pa-block) img { height: auto; }
+
+/* Cards / link boxes that contain their own links get a full-card cover link (keeps nested links valid). */
+.pa-c, .pa-tile { position: relative; }
+.pa-cover-link { position: absolute; inset: 0; z-index: 1; }
+.pa-c:has(> .pa-cover-link) a:not(.pa-cover-link) { position: relative; z-index: 2; }
+.pa-c:has(> .pa-cover-link):hover { transform: translateY(-4px); box-shadow: var(--shadow-md); }
+
+/* Headings inside cards keep the Section Library sizes (not WP's h3 defaults). */
+.pa-c-title.wp-block-heading { font-family: var(--font-serif); }
+
+/* paAccordion = core Details block */
+.pa-acc .wp-block-details summary { list-style: none; }
+.pa-acc .wp-block-details summary::-webkit-details-marker { display: none; }
+.pa-acc .wp-block-details > .pa-acc-body > p + p { margin-top: 12px; }
+
+/* Event feed wrapper sits inside layouts designed for a bare <ul>/<div> */
+.pa-ev-feed { display: contents; }
+
+/* Blackthorn / Form Assembly embeds */
+.pa-bt-frame { width: 100%; }
+.pa-bt-frame iframe { width: 100%; height: 100%; border: 0; }
+
+
+.pa-fa-embed iframe { display: block; background: var(--white); border-radius: var(--radius-md); }
+.pa-embed-body code { font-size: 0.85em; background: rgba(1,31,91,0.06); padding: 1px 5px; border-radius: 3px; font-style: normal; }
+
+
+/* Search results + post lists (templates/search.html, index.html) */
+.pa-search-results .wp-block-post-template { list-style: none; padding: 0; display: grid; gap: 28px; max-width: var(--measure); }
+.pa-search-results .wp-block-post-title { font-size: 1.35rem; }
+.pa-search-results .wp-block-post-excerpt { color: var(--muted); margin-top: 6px; }
+
+/* WordPress admin bar: keep sticky header below it */
+.admin-bar .pa-site-header { top: calc(32px - var(--utility-height)); }
+@media (max-width: 782px) { .admin-bar .pa-site-header { top: calc(46px - var(--utility-height)); } }
+.pa-bt-embed > .pa-embed { margin-bottom: 32px; }
+.pa-aside-image > .wp-block-image { height: 100%; width: 100%; margin: 0; }

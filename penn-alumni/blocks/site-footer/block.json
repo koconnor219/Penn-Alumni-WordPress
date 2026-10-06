@@ -1,0 +1,17 @@
+{
+	"$schema": "https://schemas.wp.org/trunk/block.json",
+	"apiVersion": 3,
+	"name": "penn/site-footer",
+	"title": "Site Footer",
+	"category": "penn",
+	"description": "Footer (paFooter). Links from Appearance \u2192 Menus; contact block from Settings \u2192 Penn Alumni.",
+	"icon": "admin-site",
+	"textdomain": "penn-alumni",
+	"attributes": {},
+	"supports": {
+		"html": false,
+		"inserter": false
+	},
+	"editorScript": "penn-blocks-editor",
+	"render": "file:./render.php"
+}

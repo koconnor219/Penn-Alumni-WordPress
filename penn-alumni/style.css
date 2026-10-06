@@ -1,0 +1,15 @@
+/*
+Theme Name: Penn Alumni
+Theme URI: https://alumni.upenn.edu
+Description: Penn Alumni Relations block theme. Built from the Penn Alumni Section Library (the same ~15 components as the Experience Cloud spec) so editors assemble pages from approved sections instead of coding them. All styling comes from assets/css/pennDesignTokens.css — the same file used by the HTML prototype.
+Author: Penn Alumni Relations
+Version: 0.1.0
+Requires at least: 6.5
+Tested up to: 6.9
+Requires PHP: 8.0
+License: Proprietary — University of Pennsylvania
+Text Domain: penn-alumni
+*/
+
+/* Intentionally empty: styles live in assets/css/pennDesignTokens.css (brand + section library)
+   and assets/css/wp-adapter.css (the small layer that maps WordPress block markup onto it). */

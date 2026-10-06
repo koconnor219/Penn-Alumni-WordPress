@@ -1,0 +1,122 @@
+[
+ {
+  "mo": "Apr",
+  "day": "10",
+  "cat": "social",
+  "catl": "Social",
+  "title": "Penn Club of Philly: Spring Happy Hour",
+  "time": "6:00 PM",
+  "meta": "Philadelphia, PA",
+  "group": "Regional Clubs"
+ },
+ {
+  "mo": "Apr",
+  "day": "12",
+  "cat": "virtual",
+  "catl": "Virtual",
+  "title": "Career Night: AI & Technology",
+  "time": "7:00 PM",
+  "meta": "Online",
+  "group": "Career"
+ },
+ {
+  "mo": "Apr",
+  "day": "18",
+  "cat": "inperson",
+  "catl": "In-Person",
+  "title": "PennNYC Spring Gala",
+  "time": "6:30 PM",
+  "meta": "New York, NY",
+  "group": "Regional Clubs"
+ },
+ {
+  "mo": "Apr",
+  "day": "25",
+  "cat": "webinar",
+  "catl": "Webinar",
+  "title": "Financial Planning for Young Alumni",
+  "time": "12:00 PM",
+  "meta": "Online",
+  "group": "Young Alumni"
+ },
+ {
+  "mo": "May",
+  "day": "3",
+  "cat": "reunion",
+  "catl": "Reunion",
+  "title": "Penn Relays Alumni Celebration",
+  "time": "10:00 AM",
+  "meta": "Franklin Field",
+  "group": "Alumni Weekend"
+ },
+ {
+  "mo": "May",
+  "day": "15",
+  "cat": "reunion",
+  "catl": "Reunion",
+  "title": "Alumni Weekend 2027: Parade of Classes",
+  "time": "11:00 AM",
+  "meta": "Locust Walk",
+  "group": "Alumni Weekend"
+ },
+ {
+  "mo": "May",
+  "day": "16",
+  "cat": "campus",
+  "catl": "On Campus",
+  "title": "25th Reunion Class Dinner",
+  "time": "7:00 PM",
+  "meta": "Penn Campus",
+  "group": "Alumni Weekend 25th Reunion"
+ },
+ {
+  "mo": "Oct",
+  "day": "24",
+  "cat": "campus",
+  "catl": "On Campus",
+  "title": "Homecoming Tailgate on Shoemaker Green",
+  "time": "11:00 AM",
+  "meta": "Penn Campus",
+  "group": "Homecoming"
+ },
+ {
+  "mo": "Oct",
+  "day": "25",
+  "cat": "inperson",
+  "catl": "In-Person",
+  "title": "Alumni Award of Merit Gala",
+  "time": "6:30 PM",
+  "meta": "Philadelphia, PA",
+  "group": "Homecoming"
+ },
+ {
+  "mo": "Nov",
+  "day": "6",
+  "cat": "virtual",
+  "catl": "Virtual",
+  "title": "Alumni Education: Faculty Lecture Series",
+  "time": "7:00 PM",
+  "meta": "Online",
+  "group": "Alumni Education"
+ },
+ {
+  "mo": "Nov",
+  "day": "13",
+  "cat": "inperson",
+  "catl": "In-Person",
+  "title": "An Evening with Penn: Chicago",
+  "time": "6:00 PM",
+  "meta": "Chicago, IL",
+  "group": "Evening with Penn"
+ },
+ {
+  "mo": "Dec",
+  "day": "4",
+  "cat": "social",
+  "catl": "Social",
+  "title": "Young Alumni Holiday Mixer",
+  "time": "7:00 PM",
+  "meta": "Washington, DC",
+  "group": "Young Alumni"
+ }
+]

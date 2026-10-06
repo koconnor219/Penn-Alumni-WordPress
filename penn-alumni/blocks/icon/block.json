@@ -1,0 +1,22 @@
+{
+	"$schema": "https://schemas.wp.org/trunk/block.json",
+	"apiVersion": 3,
+	"name": "penn/icon",
+	"title": "Icon",
+	"category": "penn",
+	"description": "A Lucide icon from the Penn icon set.",
+	"icon": "star-empty",
+	"textdomain": "penn-alumni",
+	"attributes": {
+		"icon": {
+			"type": "string",
+			"default": "calendar"
+		}
+	},
+	"supports": {
+		"className": true,
+		"html": false
+	},
+	"editorScript": "penn-blocks-editor",
+	"render": "file:./render.php"
+}

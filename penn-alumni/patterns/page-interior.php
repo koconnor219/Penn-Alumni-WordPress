@@ -1,0 +1,223 @@
+<?php
+/**
+ * Title: Program page (interior)
+ * Slug: penn/page-interior
+ * Categories: penn-pages
+ * Block Types: core/post-content
+ * Post Types: page
+ * Description: Hero, intro, program cards, feature, events, links, contact band.
+ */
+?>
+<!-- wp:penn/hero {"variant":"page","mediaUrl":"<?php echo esc_url( get_template_directory_uri() ); ?>/assets/images/Ben%20Franklin.jpg"} -->
+<!-- wp:penn/breadcrumbs /-->
+<!-- wp:paragraph {"className":"pa-hero-eyebrow"} -->
+<p class="pa-hero-eyebrow">Lifelong Learning</p>
+<!-- /wp:paragraph -->
+<!-- wp:heading {"level":1,"className":"pa-hero-title"} -->
+<h1 class="wp-block-heading pa-hero-title">Alumni <em>Education</em></h1>
+<!-- /wp:heading -->
+<!-- wp:paragraph {"className":"pa-hero-sub"} -->
+<p class="pa-hero-sub">The continued pursuit of inquiry and discovery that first brought you to Penn.</p>
+<!-- /wp:paragraph -->
+<!-- wp:buttons -->
+<div class="wp-block-buttons"><!-- wp:button {"className":"is-style-pa-primary"} -->
+<div class="wp-block-button is-style-pa-primary"><a class="wp-block-button__link wp-element-button" href="#programs">Explore Programs</a></div>
+<!-- /wp:button -->
+<!-- wp:button {"className":"is-style-pa-ghost"} -->
+<div class="wp-block-button is-style-pa-ghost"><a class="wp-block-button__link wp-element-button" href="#">Join our Mailing List</a></div>
+<!-- /wp:button --></div>
+<!-- /wp:buttons -->
+<!-- /wp:penn/hero -->
+
+<!-- wp:penn/section -->
+<!-- wp:group {"className":"pa-content pa-content\u002d\u002dnarrow"} -->
+<div class="wp-block-group pa-content pa-content--narrow"><!-- wp:group {"className":"pa-head"} -->
+<div class="wp-block-group pa-head"><!-- wp:paragraph {"className":"pa-head-eyebrow"} -->
+<p class="pa-head-eyebrow">A Branch of Lifelong Learning</p>
+<!-- /wp:paragraph -->
+<!-- wp:heading {"className":"pa-head-title"} -->
+<h2 class="wp-block-heading pa-head-title">Stay curious. Stay <em>connected</em></h2>
+<!-- /wp:heading --></div>
+<!-- /wp:group -->
+<!-- wp:group {"className":"pa-rich"} -->
+<div class="wp-block-group pa-rich"><!-- wp:paragraph -->
+<p>Penn Alumni Education is a branch of Penn Alumni Lifelong Learning, which supports and encourages the continued pursuit of inquiry and discovery that first brought you to Penn. Whenever you graduated and wherever you are in the world, we invite you to engage with faculty members and subject-area experts — and to learn and connect with fellow alumni through our comprehensive education, career, and travel programs and resources.</p>
+<!-- /wp:paragraph -->
+<!-- wp:paragraph -->
+<p>Education programming is available online, on-campus, and off-campus, ensuring you maintain access to Penn's world-renowned faculty members and dynamic learning environment, long after you graduate. Join us for faculty lectures, online courses, book clubs, author talks, and more.</p>
+<!-- /wp:paragraph --></div>
+<!-- /wp:group --></div>
+<!-- /wp:group -->
+<!-- /wp:penn/section -->
+
+<!-- wp:penn/section {"bg":"cream","anchor":"programs"} -->
+<!-- wp:group {"className":"pa-head"} -->
+<div class="wp-block-group pa-head"><!-- wp:paragraph {"className":"pa-head-eyebrow"} -->
+<p class="pa-head-eyebrow">Our Programs</p>
+<!-- /wp:paragraph -->
+<!-- wp:heading {"className":"pa-head-title"} -->
+<h2 class="wp-block-heading pa-head-title">Three ways to learn with <em>Penn</em></h2>
+<!-- /wp:heading --></div>
+<!-- /wp:group -->
+<!-- wp:penn/grid {"columns":3} -->
+<!-- wp:penn/card {"cardStyle":"image","href":"#","tone":"a"} -->
+<!-- wp:paragraph {"className":"pa-c-eyebrow"} -->
+<p class="pa-c-eyebrow">Faculty Lecture Series</p>
+<!-- /wp:paragraph -->
+<!-- wp:heading {"level":3,"className":"pa-c-title"} -->
+<h3 class="wp-block-heading pa-c-title">Global Discovery Series</h3>
+<!-- /wp:heading -->
+<!-- wp:paragraph {"className":"pa-c-meta"} -->
+<p class="pa-c-meta">Virtual · Faculty Lectures</p>
+<!-- /wp:paragraph -->
+<!-- wp:paragraph {"className":"pa-c-text"} -->
+<p class="pa-c-text">Explore the world virtually, both far and near, with Penn faculty members and your fellow alumni community. Each live, interactive lecture features Penn professors sharing new and innovative research on a variety of topics.</p>
+<!-- /wp:paragraph -->
+<!-- wp:paragraph {"className":"pa-c-link"} -->
+<p class="pa-c-link">Learn More →</p>
+<!-- /wp:paragraph -->
+<!-- /wp:penn/card -->
+<!-- wp:penn/card {"cardStyle":"image","href":"#","tone":"b"} -->
+<!-- wp:paragraph {"className":"pa-c-eyebrow"} -->
+<p class="pa-c-eyebrow">Seminar Series</p>
+<!-- /wp:paragraph -->
+<!-- wp:heading {"level":3,"className":"pa-c-title"} -->
+<h3 class="wp-block-heading pa-c-title">Lifelong Learning Seminars</h3>
+<!-- /wp:heading -->
+<!-- wp:paragraph {"className":"pa-c-meta"} -->
+<p class="pa-c-meta">Virtual · Alumni-Only</p>
+<!-- /wp:paragraph -->
+<!-- wp:paragraph {"className":"pa-c-text"} -->
+<p class="pa-c-text">Designed exclusively for the Penn alumni community, the Lifelong Learning Seminar Series offers the chance to delve into thought-provoking topics with faculty experts — intimate sessions for deeper engagement.</p>
+<!-- /wp:paragraph -->
+<!-- wp:paragraph {"className":"pa-c-link"} -->
+<p class="pa-c-link">Learn More →</p>
+<!-- /wp:paragraph -->
+<!-- /wp:penn/card -->
+<!-- wp:penn/card {"cardStyle":"image","href":"#","tone":"c"} -->
+<!-- wp:paragraph {"className":"pa-c-eyebrow"} -->
+<p class="pa-c-eyebrow">Online Course</p>
+<!-- /wp:paragraph -->
+<!-- wp:heading {"level":3,"className":"pa-c-title"} -->
+<h3 class="wp-block-heading pa-c-title">Alumni Online Course</h3>
+<!-- /wp:heading -->
+<!-- wp:paragraph {"className":"pa-c-meta"} -->
+<p class="pa-c-meta">Virtual · Multi-Week</p>
+<!-- /wp:paragraph -->
+<!-- wp:paragraph {"className":"pa-c-text"} -->
+<p class="pa-c-text">Multi-week, immersive courses taught by Penn faculty — adapted from Penn's classroom offerings and opened exclusively to alumni. Engage deeply with a single subject over four to six weeks.</p>
+<!-- /wp:paragraph -->
+<!-- wp:paragraph {"className":"pa-c-link"} -->
+<p class="pa-c-link">Learn More →</p>
+<!-- /wp:paragraph -->
+<!-- /wp:penn/card -->
+<!-- /wp:penn/grid -->
+<!-- /wp:penn/section -->
+
+<!-- wp:penn/section -->
+<!-- wp:group {"className":"pa-content pa-content\u002d\u002daside-left"} -->
+<div class="wp-block-group pa-content pa-content--aside-left"><!-- wp:group -->
+<div class="wp-block-group"><!-- wp:group {"className":"pa-head"} -->
+<div class="wp-block-group pa-head"><!-- wp:paragraph {"className":"pa-head-eyebrow"} -->
+<p class="pa-head-eyebrow">Now Enrolling</p>
+<!-- /wp:paragraph -->
+<!-- wp:heading {"className":"pa-head-title"} -->
+<h2 class="wp-block-heading pa-head-title">Spirituality, Wellness, <em>and Identity</em></h2>
+<!-- /wp:heading --></div>
+<!-- /wp:group -->
+<!-- wp:paragraph {"className":"pa-content-meta"} -->
+<p class="pa-content-meta"><strong>Begins January 29, 2026</strong> · Five-Week Course</p>
+<!-- /wp:paragraph -->
+<!-- wp:group {"className":"pa-rich"} -->
+<div class="wp-block-group pa-rich"><!-- wp:paragraph -->
+<p>With <strong>Dr. Justin McDaniel</strong>, Edmund J. and Louise W. Kahn Endowed Professor of the Humanities.</p>
+<!-- /wp:paragraph -->
+<!-- wp:paragraph -->
+<p>Join Dr. McDaniel for a five-week, alumni-only version of his acclaimed Penn course. Explore how spiritual traditions, wellness practices, and questions of identity intersect in contemporary life — a hallmark Penn course adapted for alumni wherever they are.</p>
+<!-- /wp:paragraph --></div>
+<!-- /wp:group -->
+<!-- wp:buttons -->
+<div class="wp-block-buttons"><!-- wp:button {"className":"is-style-pa-primary"} -->
+<div class="wp-block-button is-style-pa-primary"><a class="wp-block-button__link wp-element-button" href="#">Enroll Now</a></div>
+<!-- /wp:button -->
+<!-- wp:button {"className":"is-style-pa-ghost"} -->
+<div class="wp-block-button is-style-pa-ghost"><a class="wp-block-button__link wp-element-button" href="#">Course Syllabus →</a></div>
+<!-- /wp:button --></div>
+<!-- /wp:buttons --></div>
+<!-- /wp:group -->
+<!-- wp:group {"className":"pa-content-aside"} -->
+<div class="wp-block-group pa-content-aside"><!-- wp:group {"className":"pa-aside-image pa-tone-a"} -->
+<div class="wp-block-group pa-aside-image pa-tone-a"><!-- wp:image -->
+<figure class="wp-block-image"><img src="<?php echo esc_url( get_template_directory_uri() ); ?>/assets/images/College%20Hall.jpg" alt=""/></figure>
+<!-- /wp:image --></div>
+<!-- /wp:group --></div>
+<!-- /wp:group --></div>
+<!-- /wp:group -->
+<!-- /wp:penn/section -->
+
+<!-- wp:penn/section {"bg":"blue","anchor":"events"} -->
+<!-- wp:group {"className":"pa-head pa-head\u002d\u002dsplit"} -->
+<div class="wp-block-group pa-head pa-head--split"><!-- wp:group -->
+<div class="wp-block-group"><!-- wp:paragraph {"className":"pa-head-eyebrow"} -->
+<p class="pa-head-eyebrow">Calendar</p>
+<!-- /wp:paragraph -->
+<!-- wp:heading {"className":"pa-head-title"} -->
+<h2 class="wp-block-heading pa-head-title">Upcoming <em>lectures &amp; courses</em></h2>
+<!-- /wp:heading --></div>
+<!-- /wp:group -->
+<!-- wp:paragraph -->
+<p><a class="pa-head-link" href="/events/">Full Calendar →</a></p>
+<!-- /wp:paragraph --></div>
+<!-- /wp:group -->
+<!-- wp:penn/event-feed {"layout":"cards","count":3,"filter":"Education","columns":3} /-->
+<!-- /wp:penn/section -->
+
+<!-- wp:penn/section -->
+<!-- wp:group {"className":"pa-head"} -->
+<div class="wp-block-group pa-head"><!-- wp:paragraph {"className":"pa-head-eyebrow"} -->
+<p class="pa-head-eyebrow">Also From Lifelong Learning</p>
+<!-- /wp:paragraph -->
+<!-- wp:heading {"className":"pa-head-title"} -->
+<h2 class="wp-block-heading pa-head-title">Expand your <em>journey</em></h2>
+<!-- /wp:heading --></div>
+<!-- /wp:group -->
+<!-- wp:penn/grid {"columns":2} -->
+<!-- wp:penn/card {"cardStyle":"row","href":"/learn/travel/","icon":"globe"} -->
+<!-- wp:heading {"level":3,"className":"pa-c-title"} -->
+<h3 class="wp-block-heading pa-c-title">Penn Alumni Travel</h3>
+<!-- /wp:heading -->
+<!-- wp:paragraph {"className":"pa-c-text"} -->
+<p class="pa-c-text">Curated educational journeys across six continents — with Penn faculty as your companions and local experts as your guides.</p>
+<!-- /wp:paragraph -->
+<!-- /wp:penn/card -->
+<!-- wp:penn/card {"cardStyle":"row","href":"/learn/career/","icon":"briefcase"} -->
+<!-- wp:heading {"level":3,"className":"pa-c-title"} -->
+<h3 class="wp-block-heading pa-c-title">Career Tools & Resources</h3>
+<!-- /wp:heading -->
+<!-- wp:paragraph {"className":"pa-c-text"} -->
+<p class="pa-c-text">Mentoring, career resources, and professional networks that support you at every stage of your working life — long after graduation.</p>
+<!-- /wp:paragraph -->
+<!-- /wp:penn/card -->
+<!-- /wp:penn/grid -->
+<!-- /wp:penn/section -->
+
+<!-- wp:penn/section {"bg":"cream"} -->
+<!-- wp:group {"className":"pa-cta pa-cta\u002d\u002dsplit"} -->
+<div class="wp-block-group pa-cta pa-cta--split"><!-- wp:group {"className":"pa-head"} -->
+<div class="wp-block-group pa-head"><!-- wp:paragraph {"className":"pa-head-eyebrow"} -->
+<p class="pa-head-eyebrow">Contact</p>
+<!-- /wp:paragraph -->
+<!-- wp:heading {"className":"pa-head-title"} -->
+<h2 class="wp-block-heading pa-head-title">Talk to our <em>Education Team</em></h2>
+<!-- /wp:heading -->
+<!-- wp:paragraph {"className":"pa-head-intro"} -->
+<p class="pa-head-intro">Questions about a course, a lecture series, or how to get started? We're happy to help you find the right program.</p>
+<!-- /wp:paragraph --></div>
+<!-- /wp:group -->
+<!-- wp:buttons -->
+<div class="wp-block-buttons"><!-- wp:button {"className":"is-style-pa-primary"} -->
+<div class="wp-block-button is-style-pa-primary"><a class="wp-block-button__link wp-element-button" href="/about/contact/">Get in Touch →</a></div>
+<!-- /wp:button --></div>
+<!-- /wp:buttons --></div>
+<!-- /wp:group -->
+<!-- /wp:penn/section -->

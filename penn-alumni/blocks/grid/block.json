@@ -1,0 +1,22 @@
+{
+	"$schema": "https://schemas.wp.org/trunk/block.json",
+	"apiVersion": 3,
+	"name": "penn/grid",
+	"title": "Card Grid",
+	"category": "penn",
+	"description": "2, 3 or 4 columns of cards (paCardGrid). Drag cards in and out.",
+	"icon": "grid-view",
+	"textdomain": "penn-alumni",
+	"attributes": {
+		"columns": {
+			"type": "number",
+			"default": 3
+		}
+	},
+	"supports": {
+		"className": true,
+		"html": false
+	},
+	"editorScript": "penn-blocks-editor",
+	"render": "file:./render.php"
+}

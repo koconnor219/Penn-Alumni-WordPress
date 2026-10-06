@@ -1,0 +1,30 @@
+{
+	"$schema": "https://schemas.wp.org/trunk/block.json",
+	"apiVersion": 3,
+	"name": "penn/form-assembly",
+	"title": "Form Assembly Form",
+	"category": "penn",
+	"description": "Embeds a Form Assembly form by its form number.",
+	"icon": "feedback",
+	"textdomain": "penn-alumni",
+	"attributes": {
+		"formId": {
+			"type": "string",
+			"default": ""
+		},
+		"height": {
+			"type": "number",
+			"default": 900
+		},
+		"title": {
+			"type": "string",
+			"default": ""
+		}
+	},
+	"supports": {
+		"className": true,
+		"html": false
+	},
+	"editorScript": "penn-blocks-editor",
+	"render": "file:./render.php"
+}

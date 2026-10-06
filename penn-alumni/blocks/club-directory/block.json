@@ -1,0 +1,16 @@
+{
+	"$schema": "https://schemas.wp.org/trunk/block.json",
+	"apiVersion": 3,
+	"name": "penn/club-directory",
+	"title": "Regional Club Directory",
+	"category": "penn",
+	"description": "Searchable club cards with region pills (paDirectory \u00b7 clubs). Data: data/clubs.txt \u2014 update once a year.",
+	"icon": "location-alt",
+	"textdomain": "penn-alumni",
+	"attributes": {},
+	"supports": {
+		"html": false
+	},
+	"editorScript": "penn-blocks-editor",
+	"render": "file:./render.php"
+}

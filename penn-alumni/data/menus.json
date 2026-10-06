@@ -1,0 +1,322 @@
+{
+ "primary": [
+  {
+   "title": "Events",
+   "url": "/events/",
+   "description": "From Alumni Weekend to a happy hour near you — find your next Penn gathering.",
+   "overviewLabel": "All Events",
+   "children": [
+    {
+     "title": "Events Calendar",
+     "url": "/events/",
+     "newTab": false
+    },
+    {
+     "title": "Alumni Weekend",
+     "url": "/events/alumni-weekend/",
+     "newTab": false
+    },
+    {
+     "title": "Homecoming Weekend",
+     "url": "/events/homecoming/",
+     "newTab": false
+    },
+    {
+     "title": "Inspiring Impact",
+     "url": "/events/inspiring-impact/",
+     "newTab": false
+    },
+    {
+     "title": "An Evening with Penn",
+     "url": "/events/evening-with-penn/",
+     "newTab": false
+    },
+    {
+     "title": "Photos",
+     "url": "https://pennalumni.smugmug.com",
+     "newTab": true
+    }
+   ]
+  },
+  {
+   "title": "Communities",
+   "url": "/communities/",
+   "description": "Your class, your region, your people. Find the Penn communities you belong to.",
+   "overviewLabel": "Overview",
+   "children": [
+    {
+     "title": "Association of Alumnae",
+     "url": "/communities/association-of-alumnae/",
+     "newTab": false
+    },
+    {
+     "title": "Classes & Reunions",
+     "url": "/communities/classes/",
+     "newTab": false
+    },
+    {
+     "title": "Penn First Plus Alumni",
+     "url": "/communities/penn-first-plus/",
+     "newTab": false
+    },
+    {
+     "title": "Penn Spectrum Programs",
+     "url": "/communities/penn-spectrum/",
+     "newTab": false
+    },
+    {
+     "title": "Penn Traditions",
+     "url": "/communities/penn-traditions/",
+     "newTab": false
+    },
+    {
+     "title": "Regional Clubs",
+     "url": "/communities/regional-clubs/",
+     "newTab": false
+    },
+    {
+     "title": "Shared Interest Groups",
+     "url": "/communities/shared-interest-groups/",
+     "newTab": false
+    },
+    {
+     "title": "Young Alumni",
+     "url": "/communities/young-alumni/",
+     "newTab": false
+    },
+    {
+     "title": "Graduate School Alumni",
+     "url": "/communities/graduate-school-alumni/",
+     "newTab": false
+    },
+    {
+     "title": "Trustees' Council of Penn Women",
+     "url": "/communities/trustees-council-of-penn-women/",
+     "newTab": false
+    }
+   ]
+  },
+  {
+   "title": "Learn & Network",
+   "url": "/learn/",
+   "description": "Keep learning, see the world with Penn faculty, and grow your career.",
+   "overviewLabel": "Overview",
+   "children": [
+    {
+     "title": "Alumni Education",
+     "url": "/learn/alumni-education/",
+     "newTab": false
+    },
+    {
+     "title": "Career Programs & Resources",
+     "url": "/learn/career/",
+     "newTab": false
+    },
+    {
+     "title": "Penn Alumni Ambassador Program",
+     "url": "/learn/ambassador-program/",
+     "newTab": false
+    },
+    {
+     "title": "Penn Alumni Travel",
+     "url": "/learn/travel/",
+     "newTab": false
+    },
+    {
+     "title": "MyPenn",
+     "url": "https://mypenn.upenn.edu",
+     "newTab": true
+    },
+    {
+     "title": "Online Learning",
+     "url": "https://online.upenn.edu",
+     "newTab": true
+    }
+   ]
+  },
+  {
+   "title": "Get Involved",
+   "url": "/get-involved/",
+   "description": "Volunteer, lead, and give — ways to shape Penn's future.",
+   "overviewLabel": "Overview",
+   "children": [
+    {
+     "title": "Ways to Engage",
+     "url": "/get-involved/",
+     "newTab": false
+    },
+    {
+     "title": "Communities & Groups",
+     "url": "/get-involved/communities-groups/",
+     "newTab": false
+    },
+    {
+     "title": "Make a Gift",
+     "url": "https://giving.apps.upenn.edu",
+     "newTab": true
+    }
+   ]
+  },
+  {
+   "title": "About",
+   "url": "/about/",
+   "description": "The office that keeps 300,000+ Quakers connected to Penn and each other.",
+   "overviewLabel": "Overview",
+   "children": [
+    {
+     "title": "Alumni Relations",
+     "url": "/about/",
+     "newTab": false
+    },
+    {
+     "title": "Alumni Awards",
+     "url": "/about/awards/",
+     "newTab": false
+    },
+    {
+     "title": "Benefits",
+     "url": "/about/benefits/",
+     "newTab": false
+    },
+    {
+     "title": "Leadership",
+     "url": "/about/leadership/",
+     "newTab": false
+    },
+    {
+     "title": "Resources",
+     "url": "/about/resources/",
+     "newTab": false
+    },
+    {
+     "title": "Contact Us",
+     "url": "/about/contact/",
+     "newTab": false
+    },
+    {
+     "title": "The Pennsylvania Gazette",
+     "url": "https://thepenngazette.com",
+     "newTab": true
+    }
+   ]
+  }
+ ],
+ "utility": [
+  {
+   "title": "Penn Home",
+   "url": "https://www.upenn.edu",
+   "newTab": false
+  },
+  {
+   "title": "Inspiring Impact",
+   "url": "https://giving.upenn.edu",
+   "newTab": false
+  },
+  {
+   "title": "Make a Gift",
+   "url": "https://giving.apps.upenn.edu",
+   "newTab": false
+  },
+  {
+   "title": "MyPenn",
+   "url": "https://mypenn.upenn.edu",
+   "newTab": false
+  }
+ ],
+ "footer-explore": [
+  {
+   "title": "Events",
+   "url": "/events/",
+   "newTab": false
+  },
+  {
+   "title": "Communities",
+   "url": "/communities/",
+   "newTab": false
+  },
+  {
+   "title": "Learn & Network",
+   "url": "/learn/",
+   "newTab": false
+  },
+  {
+   "title": "Get Involved",
+   "url": "/get-involved/",
+   "newTab": false
+  },
+  {
+   "title": "About",
+   "url": "/about/",
+   "newTab": false
+  }
+ ],
+ "footer-resources": [
+  {
+   "title": "Contact Us",
+   "url": "/about/contact/",
+   "newTab": false
+  },
+  {
+   "title": "Land Acknowledgement",
+   "url": "/about/#land-acknowledgement",
+   "newTab": false
+  },
+  {
+   "title": "The Pennsylvania Gazette",
+   "url": "https://thepenngazette.com",
+   "newTab": false
+  },
+  {
+   "title": "Privacy Policy",
+   "url": "https://www.alumni.upenn.edu/s/1587/gid2/16/interior.aspx?sid=1587&gid=2&pgid=230&cid=157",
+   "newTab": false
+  },
+  {
+   "title": "Report Accessibility Issues & Get Help",
+   "url": "https://accessibility.web-resources.upenn.edu/get-help",
+   "newTab": false
+  },
+  {
+   "title": "Disclaimer",
+   "url": "https://www.upenn.edu/about/disclaimer",
+   "newTab": false
+  },
+  {
+   "title": "Emergency Services",
+   "url": "https://www.publicsafety.upenn.edu/contact/",
+   "newTab": false
+  },
+  {
+   "title": "Report Copyright Infringement",
+   "url": "https://www.upenn.edu/about/report-copyright-infringement",
+   "newTab": false
+  }
+ ],
+ "footer-follow": [
+  {
+   "title": "Facebook",
+   "url": "https://www.facebook.com/pennalumni",
+   "newTab": false
+  },
+  {
+   "title": "Instagram",
+   "url": "https://www.instagram.com/pennalumni",
+   "newTab": false
+  },
+  {
+   "title": "LinkedIn",
+   "url": "https://www.linkedin.com/groups/58092/",
+   "newTab": false
+  },
+  {
+   "title": "YouTube",
+   "url": "https://www.youtube.com/user/univpennsylvania",
+   "newTab": false
+  },
+  {
+   "title": "Photos / SmugMug",
+   "url": "https://pennalumni.smugmug.com",
+   "newTab": false
+  }
+ ]
+}

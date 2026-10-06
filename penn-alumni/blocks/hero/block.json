@@ -1,0 +1,33 @@
+{
+	"$schema": "https://schemas.wp.org/trunk/block.json",
+	"apiVersion": 3,
+	"name": "penn/hero",
+	"title": "Page Hero",
+	"category": "penn",
+	"description": "Top-of-page banner (paHero): photo or video background, breadcrumb, eyebrow, title, subtitle, buttons.",
+	"icon": "cover-image",
+	"textdomain": "penn-alumni",
+	"attributes": {
+		"variant": {
+			"type": "string",
+			"default": "page"
+		},
+		"mediaUrl": {
+			"type": "string",
+			"default": ""
+		},
+		"mediaId": {
+			"type": "number"
+		},
+		"videoUrl": {
+			"type": "string",
+			"default": ""
+		}
+	},
+	"supports": {
+		"className": true,
+		"html": false
+	},
+	"editorScript": "penn-blocks-editor",
+	"render": "file:./render.php"
+}
